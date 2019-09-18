@@ -1,3 +1,3 @@
-import * as shell from 'shelljs'
+let shell = require('shelljs')
 
 shell.cp('-R', 'src/public', 'dist/public/')

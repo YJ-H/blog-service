@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import dbConfig from "./dbConfig";
+import dbConfig from "~/YJ/dbConfig";
 mongoose.connect(dbConfig.DB_URL, {
   authSource: dbConfig.authSource,
   auth: dbConfig.auth

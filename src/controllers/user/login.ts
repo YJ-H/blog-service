@@ -2,7 +2,6 @@ import { Context } from 'koa'
 import md5 from "md5"
 import Utils from "../../utils"
 import Tips from "../../utils/tip"
-import db from "../../db"
 import { UserModel } from "../../models/user.model"
 
 import {
